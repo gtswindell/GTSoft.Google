@@ -1,0 +1,34 @@
+ERROR
+https://maps.googleapis.com/maps/api/distancematrix/json?origins=B79%208QZ&destinations=CV9%202RY&key=AIzaSyA_1najHd-EvHLzCQPsm1KSppJdlxqCOvs
+{
+   "destination_addresses" : [],
+   "error_message" : "This API project was not found. This API project may have been \"\n             R\"(deleted.",
+   "origin_addresses" : [],
+   "rows" : [],
+   "status" : "REQUEST_DENIED"
+}
+
+DISTANCE MATRIX
+https://maps.googleapis.com/maps/api/distancematrix/json?origins=B79%208QZ&destinations=CV9%202RY&key=AIzaSyDQtT3PejcsUxyrPTGEZ9_K0c_xKatfDcM
+{
+   "destination_addresses" : [ "Atherstone, Atherstone, Warwickshire CV9 2RY, UK" ],
+   "origin_addresses" : [ "Tamworth, Tamworth, Staffordshire B79 8QZ, UK" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "16.3 km",
+                  "value" : 16313
+               },
+               "duration" : {
+                  "text" : "20 mins",
+                  "value" : 1188
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}
